@@ -1,0 +1,118 @@
+{
+  "select_language": "Select Language",
+  "gender": "Choisissez un sexe",
+  "genderSelect": {
+    "genderName": {
+      "male": "Masculin",
+      "female": "Féminin"
+    }
+  },
+  "hairloss": {
+    "keine": "pas de chute de cheveux",
+    "light": "lignée frontale dégarnie légèrement",
+    "light_moderate": "lignée frontale dégarnie légèrement- vertex",
+    "middle": "lignée frontale dégarnie fortement - vertex",
+    "middle_rough": "Semi-chauve",
+    "rough": "chauve"
+  },
+  "hairColor": {
+    "black": "Noir",
+    "brown": "Brun",
+    "red": "Roux",
+    "gray": "Gris",
+    "blond": "Blond",
+    "none": "Aucun"
+  },
+  "next": "Suivant",
+  "back": "Précédent",
+  "step": "Étape",
+  "finalStep" : "Dernière étape",
+  "finished" : "TÉLÉCHARGER LA PHOTO",
+  "no": "Non",
+  "yes": "Oui",
+  "upload_btn": "Télécharger",
+  "hair_loss": "Votre type de calvitie?",
+  "hair_color": "Quelle est la couleur de vos cheveux?",
+  "since_when": "Depuis combien de temps avez vous une chute de cheveux?",
+  "satisfied": "À quel point êtes-vous satisfait de l’état actuel de vos cheveux?",
+  "hair_suffer": "Est-ce que vos parents ont une calvitie?",
+  "hair_transplant": "Avez-vous déjà eu une greffe de cheveux?",
+  "hair_transplant_next_step": "Quand avez-vous eu une greffe capillaire?",
+  "planing": "Quand voudriez-vous avoir votre greffe capillaire?",
+  "label": {
+    "one": "Très triste",
+    "two": "Triste",
+    "three": "Satisfait",
+    "four": "Content",
+    "five": "Très content"
+  },
+  "howFast": {
+    "fast": "So schnell wie möglich",
+    "month": "In 3 Monaten",
+    "year": "In 1 Jahr",
+    "notPlaned": "Noch nicht gesplant"
+  },
+  "upload": "Vous pouvez désormais télécharger des photos de votre situation capillaire actuelle.",
+  "regards": "Merci!",
+  "results": "À qui devrait-on envoyer les résultats?",
+  "done": "Presque fini",
+  "year": "année",
+  "years": "années",
+  "personal_data": "Veuillez saisir vos données personnelles",
+  "form": {
+    "agb": {
+      "first_text": "J'ai lu le",
+      "link_text": "protection des données",
+      "third_text": "et l'accepter."
+    },
+    "firstName": "Prénom",
+    "firstName_warning": "Le prénom est requis",
+    "lastName": "Nom",
+    "lastName_warning": "Le nom de famille est requis",
+    "country_warning": "Le pays est requis",
+    "email": "Adresse mail",
+    "country": "Pays",
+    "email_warning": "L'adresse e-mail est requise",
+    "email_not_correct": "L'email n'est pas correct",
+    "mobile": "Numéro",
+    "mobile_warning": "Un mobile est requis",
+    "agreement_warning": "L'accord de l'entreprise est requis",
+    "full_name": "Prénom et nom",
+    "full_name_warning": "Le nom est requis",
+    "button": "Envoyer",
+    "text_when_done": "Retour à la page d'accueil",
+    "send_text": "Your data has been transmitted, we will contact you as soon as possible",
+    "back_to_homepage": "Back to homepage",
+    "security": {
+      "param1": "100% Gratuit",
+      "param2": "Transfert de données SSL",
+      "param3": "Analyse par des spécialistes"
+    }
+  },
+  "whenPlanC": {
+    "param1": "Le plus tôt possible",
+    "param2": "Dans 3 mois",
+    "param3": "Dans un an",
+    "param4": "Pas de date planifiée"
+  },
+  "yearsOfSuffer": {
+    "param1": "Moins d’un an",
+    "param2": "1 à 3 ans",
+    "param3": "3 à 5 ans",
+    "param4": "Plus de 5 ans"
+  },
+  "helperText": {
+    "step1": "Le sexe est important pour une bonne planification. La raisons de la chute de cheveux peutêtre différente chez les deux sexes.",
+    "step2": "Selon le type de votre calvitie, les résultats des greffe de cheveux réalisées peuventchanger.",
+    "step3": "La couleur des cheveux ne détermine pas le résultat",
+    "step4": "La chute des cheveux héréditaire (alopécie androgénétique)est parfois la cause d’unecalvitie.",
+    "step5": "Sur base de la durée de votre perte de cheveux, nous pouvons établir un meilleur pronosticpour la suite de votre calvitie.",
+    "step6": "Les informations concernant une greffe précédente sont importantes pour une possiblegreffe dans le futur.",
+    "step7": "",
+    "step8": "En précisant une période, nous pouvons assurer un déroulement plus rapide pour votregreffe de cheveux."
+  },
+  "surgeonTransplants": "chirurgien de greffe de cheveux",
+  "frontView": "Vue de face",
+  "topView": "Vue de dessusVue de dessus",
+  "sendFormBtn": "Envoyer"
+}
