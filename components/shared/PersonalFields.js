@@ -110,11 +110,9 @@ export default function PersonalFields(props) {
     );
   }, []);
   const router = useRouter();
-  console.log(router);
-  console.log(router?.pathname?.includes("-be"));
   React.useEffect(() => {
     if (props?.succesForm) {
-      if (countryCode === "BE" || router?.pathname?.includes("-be")) {
+      if (countryCode === "BE" || window?.location?.href?.includes("-be")) {
         setTimeout(() => {
           window.location.replace(
             "https://cosmedica.com/fr/greffe-de-cheveux-en-turquie-lp-be"
@@ -122,7 +120,7 @@ export default function PersonalFields(props) {
         }, 1500);
       } else if (
         countryCode === "FR" ||
-        router?.pathname?.includes("-fransa")
+        window?.location?.href?.includes("-fransa")
       ) {
         setTimeout(() => {
           window.location.replace(
@@ -166,10 +164,10 @@ export default function PersonalFields(props) {
                         ...values,
                         lead_source:
                           countryCode === "BE" ||
-                          router?.pathname?.includes("-be")
+                          window?.location?.href?.includes("-be")
                             ? "LP BE"
                             : countryCode === "FR" ||
-                              router?.pathname?.includes("-fransa")
+                              window?.location?.href?.includes("-fransa")
                             ? "LP FR"
                             : "none",
                       },
