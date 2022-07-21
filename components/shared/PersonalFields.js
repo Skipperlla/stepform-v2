@@ -110,6 +110,8 @@ export default function PersonalFields(props) {
     );
   }, []);
   const router = useRouter();
+  console.log(router);
+  console.log(router?.pathname?.includes("-be"));
   React.useEffect(() => {
     if (props?.succesForm) {
       if (countryCode === "BE" || router?.pathname?.includes("-be")) {
