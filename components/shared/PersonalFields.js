@@ -23,6 +23,7 @@ import search from "../../assets/final-step/search.svg";
 import axios from "axios";
 const baseURL = "https://stepform.herokuapp.com/api/v1";
 import { countries, data } from "../../const";
+import { useRouter } from "next/router";
 
 export default function PersonalFields(props) {
   const { t } = useTranslation();
@@ -108,6 +109,7 @@ export default function PersonalFields(props) {
       JSON.parse(localStorage.getItem("geolocation"))?.country_code
     );
   }, []);
+  const router = useRouter();
   React.useEffect(() => {
     if (props?.succesForm) {
       if (countryCode === "BE" || router?.pathname?.includes("-be")) {
