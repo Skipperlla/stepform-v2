@@ -127,6 +127,15 @@ export default function PersonalFields(props) {
             "https://cosmedica.com/fr/greffe-de-cheveux-en-turquie-lp-fr"
           );
         }, 1500);
+      } else if (
+        countryCode === "CA" ||
+        window?.location?.href?.includes("-cheveux-ca")
+      ) {
+        setTimeout(() => {
+          window.location.replace(
+            "https://cosmedica.com/fr/greffe-de-cheveux-en-turquie-lp-ca/"
+          );
+        }, 1500);
       }
     }
   }, [props?.succesForm]);
@@ -169,6 +178,9 @@ export default function PersonalFields(props) {
                             : countryCode === "FR" ||
                               window?.location?.href?.includes("-fransa")
                             ? "LP FR"
+                            : countryCode === "CA" ||
+                              window?.location?.href?.includes("-cheveux-ca")
+                            ? "LP CA-FR"
                             : "none",
                       },
                     ],
